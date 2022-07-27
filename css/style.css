@@ -47,7 +47,9 @@ header {
 
 #search_icon,
 #keyboard_icon,
-#mic_icon {
+#mic_icon, 
+#separator_icon, 
+#cross_icon {
     position: absolute;
     font-size: 18px;
     top: 14px;
@@ -58,11 +60,29 @@ header {
 }
 
 #keyboard_icon {
-    right: 53px;
+    right: 88px;
+    font-weight: 500;
 }
 
 #mic_icon {
-    right: 88px;
+    right: 53px;
+}
+
+#separator_icon {
+    right: 115px;
+    font-size: 28px;
+    top: 5px;
+    color: #202124;
+    opacity: .2;
+    font-weight: 100;
+}
+
+#cross_icon {
+    right: 132px;
+    font-size: 18px;
+    color: #202124;
+    opacity: .7;
+    font-weight: bold;
 }
 
 /* NAVBAR */
